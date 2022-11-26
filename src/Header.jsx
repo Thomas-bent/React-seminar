@@ -10,9 +10,9 @@ export const Header = () => {
         </div>
         <ul className={ Style.navbar_list }>
           <li className={ Style.topic }><Link to="/"><p className={ Style.directlinks }>Beiträge</p></Link></li>
-          <li className={ Style.nav_spacer }></li>
+          <li className={ Style.nav_spacer }>|</li>
           <li className={ Style.topic }><Link to="/">Backstage</Link></li>
-          <li className={ Style.nav_spacer }></li>
+          <li className={ Style.nav_spacer }>|</li>
           <li className={ Style.topic }><Link to="/">Über Uns</Link></li>
         </ul>
     </div>
