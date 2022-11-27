@@ -10,11 +10,13 @@ export const GesamtBeitrag = () => {
 
   return (
     <div className={ Style.main_container }>
+        <div className={Style.inner_container}>
         <h1>{ object.name }</h1>
         <br />
         <p>{ object.inhalt }</p>
         <br />
-        <p>{ object.autor }</p>
+        <p className={ Style.autor }>Autor: { object.autor }</p>
+        </div>
     </div>
   )
 }

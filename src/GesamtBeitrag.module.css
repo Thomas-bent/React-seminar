@@ -4,3 +4,10 @@
     display: flex;
     justify-content: center;
 }
+.inner_container {
+    display: inline;
+    text-align: center;
+}
+.autor {
+    font-style: italic;
+}
