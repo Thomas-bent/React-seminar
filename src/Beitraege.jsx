@@ -6,7 +6,7 @@ import {EinzelBeitrag} from './EinzelBeitrag'
 export const Beitraege = () => {
   return (
     <div className={ Style.container }>
-      <EinzelBeitrag name={ beitraegeContainer[0].name } beschreibung={ beitraegeContainer[0].beschreibung } />
+      <EinzelBeitrag objekt={ beitraegeContainer[0]} />
     </div>
   )
 }

@@ -1,7 +1,8 @@
 [
     {
-        "name": "Verrückter schwedischer supersoldat",
+        "id": 0,
+        "name": "Cybersecurity – Sicher im Internet",
         "beschreibung": "Schwedischer supersoldat im ersten weltkrieg solo vs squad",
-        "link": "https://www.youtube.com"
+        "inhalt": ""
     }
 ]

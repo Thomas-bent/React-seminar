@@ -1,6 +1,9 @@
 .container {
-    padding-top: 5rem;
-    display: flex;
-    justify-content: center;
-
+    margin-top: 8rem;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    list-style: none;
+    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
 }
