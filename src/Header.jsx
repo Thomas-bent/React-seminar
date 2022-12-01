@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Style from './Header.module.css' 
+import Style from './Header.module.css'
 
 export const Header = () => {
   return (
     <div className={ Style.navbar_container }>
         <div className={ Style.logo }>
-            <Link to='/'>laddsk</Link>
+            <Link to='/'>
+              <embed width="20px" height="20px" src='./logo_neu.svg' className={ Style.logo_img } />
+            </Link>
         </div>
         <ul className={ Style.navbar_list }>
           <li className={ Style.topic }><Link to="/beitraege"><p className={ Style.directlinks }>Beiträge</p></Link></li>

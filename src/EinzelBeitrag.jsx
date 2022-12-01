@@ -9,6 +9,8 @@ export const EinzelBeitrag = (props) => {
         <br />
         <p className={Style.video_beschreibung}>{ props.objekt.beschreibung }</p>
         <br />
+        <p className={ Style.lesezeit }>Lesezeit: { props.objekt.lesezeit }min</p>
+        <br />
         <Link to={ "/lesen/" + props.objekt.id }><button className={ Style.artikel_button }>Ganzer Artikel</button></Link>
     </div>
   )

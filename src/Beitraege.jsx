@@ -4,9 +4,12 @@ import Style from './Beitraege.module.css'
 import {EinzelBeitrag} from './EinzelBeitrag'
 
 export const Beitraege = () => {
+
+  const beitraege = beitraegeContainer.map((bt) =>  <EinzelBeitrag objekt={ bt }/>);
+
   return (
     <div className={ Style.container }>
-      <EinzelBeitrag objekt={ beitraegeContainer[0]} />
+      {beitraege}
     </div>
   )
 }

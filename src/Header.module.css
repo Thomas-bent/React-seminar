@@ -20,6 +20,7 @@
     top: 2.5rem;
 }
 .logo {
+    padding-left: 2vw;
     transition: 150ms;
 }
 .nav_spacer {
@@ -80,4 +81,8 @@
 }
 .directlinks {
     font-family: 'Comfortaa', sans-serif;
+}
+.logo_img {
+    height: 20px;
+    width: 20px;
 }

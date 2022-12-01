@@ -1,0 +1,10 @@
+.container {
+    text-align: justify;
+    line-height: 1.6;
+}
+.quoting_space {
+    height: 2vh;
+}
+.quote {
+    font-style: italic;
+}

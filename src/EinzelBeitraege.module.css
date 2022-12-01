@@ -13,7 +13,7 @@
     overflow: hidden;
 }
 .video_container:hover {
-    height: 10rem;
+    height: 14rem;
 }
 .video_beschreibung {
     padding-top: 0.3rem;
@@ -26,4 +26,7 @@
     font-family: 'Comfortaa', sans-serif;
     color: #fff;
     cursor: pointer;
+}
+.lesezeit {
+    font-style: italic;
 }
