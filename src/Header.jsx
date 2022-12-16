@@ -7,7 +7,10 @@ export const Header = () => {
     <div className={ Style.navbar_container }>
         <div className={ Style.logo }>
             <Link to='/'>
-              <embed width="20px" height="20px" src='./logo_neu.svg' className={ Style.logo_img } />
+              {
+                //<embed width="20px" height="20px" src='./logo_neu.svg' className={ Style.logo_img } />#
+              }
+              <img src='logo_png.png' alt='logo' width='30px' height='30px'/>
             </Link>
         </div>
         <ul className={ Style.navbar_list }>
