@@ -8,7 +8,7 @@
     },
     {
         "id": 1,
-        "name": "Videospiele",
+        "name": "Einblick in die Videospielentwicklung",
         "beschreibung": "In unserer heutigen Zeit gibt es nur wenig Menschen, welche keine Spiele spielen. Nun wird es Zeit, hinter den Vorhang zu schauen und sich zu fragen: Was steckt hinter der Produktion von Videospielen? Und wie kann jeder sein eigenes erschaffen?",
         "autor": "Michi",
         "lesezeit": 4
@@ -16,7 +16,7 @@
     {
         "id": 2,
         "name": "Schwedischer Scharfschütze",
-        "beschreibung": "nicht vom autor geliefert",
+        "beschreibung": "Nicht vom autor geliefert",
         "autor": "Thomas P.",
         "lesezeit": 4
     },
@@ -24,7 +24,7 @@
         "id": 3,
         "name": "Neues Entlastungsprogramm der Regierung",
         "beschreibung": "Das Jahr 2022 war für die deutsche Bevölkerung aufgrund des Kriegs in Europa sowie der Corona-Pandemie eine Herausforderung. Im Winter werden nun vor allem die Gaspreise für Probleme sorgen. Hierbei soll ein Entlastungspaket von der Bundesregierung Unterstützung geben.",
-        "autor": "Marcel H.",
+        "autor": "Marcel",
         "lesezeit": 4
     }
 ]
