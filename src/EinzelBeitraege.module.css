@@ -35,4 +35,7 @@
     .video_beschreibung {
         display: none;
     }
+    .video_container {
+        height: 7rem;
+    }
 }
