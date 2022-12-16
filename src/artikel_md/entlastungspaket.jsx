@@ -5,7 +5,7 @@ export const Entlastungspaket = () => {
   return (
     <div className={Style.container}>
         Das Ziel dieses nun schon dritten Pakets, das am 4. September von den Koalitionsparteien vorgestellt wurde, ist eine Entlastung der Bevölkerung durch 65 Milliarden Euro. Laut dem Bundeskanzler Olaf Scholz geht es darum, „das Land gut durch diese Zeit zu führen“. Dies soll laut der Bundesregierung vor allem durch kurzfristige Hilfen, strukturelle Veränderungen, um den Anstieg der Energiepreise zu dämpfen, und die Abschöpfung von Zufallsgewinnen am Strommarkt erreicht werden. Im Gegensatz zu den ersten beiden Entlastungspakten soll nicht mehr nur Bedürftigen, Familien, Geringverdiener und Pendlern geholfen werden, sondern auch Rentnern und Studierenden. Besonders die hohen Energiepreise bringen einige Menschen an ihr Existenzminimum. Die wichtigsten Elemente im Überblick:
-        <ul>
+        <ul className={Style.liste}>
             <li>
                 Nachfolgerticket des 9€-Tickets: Bundesweites Nahverkehrsangebot für 49-69 €. Allerdings wird hier noch zwischen der Bundesregierung und den Bundesländern  beraten. Bayern beispielsweise will unter keinen Umständen dieses Ticket mitfinanzieren müssen, weshalb diese Gespräche wohl noch länger andauern werden.
             </li>
@@ -29,7 +29,7 @@ export const Entlastungspaket = () => {
             </li>
             <li>
                 Einmalzahlungen:
-                <ul>
+                <ul className={Style.unterliste}>
                     <li>
                         Studenten erhalten einmalig 200 €, nachdem schon in den Monaten bevor in Form des BAföG ein Heizkostenzuschuss erfolgte
                     </li>
