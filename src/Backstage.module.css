@@ -1,0 +1,20 @@
+.main_container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    line-height: 1.6;
+}
+.text_div {
+    margin-top: 3vh;
+    text-align: center;
+    margin-bottom: 6vh;
+}
+.text_div > p {
+    text-align: justify;
+    width: 50vw;
+    margin-top: 2vh;
+    line-height: 1.6;
+}

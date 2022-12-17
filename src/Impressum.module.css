@@ -1,0 +1,8 @@
+.main_container {
+    margin-top: 15vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+    line-height: 1.6;
+}

@@ -2,10 +2,17 @@
     width: 100vw;
     height: auto;
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 
     margin-top: 4rem;
+}
+* {
+    color: #fff;
+}
+.impressum {
+    margin-bottom: 2vh;
 }
 
 @media only screen and (max-width: 600px) {
