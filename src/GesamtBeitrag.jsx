@@ -6,6 +6,7 @@ import { Cybersecurity } from './artikel_md/cybersecurity'
 import { Gamedev } from './artikel_md/gamedev'
 import { Sniper } from './artikel_md/sniper'
 import { Entlastungspaket } from './artikel_md/entlastungspaket'
+import { Schmetterling } from './artikel_md/schmetterling'
 
 export const GesamtBeitrag = () => {
 
@@ -19,6 +20,7 @@ export const GesamtBeitrag = () => {
       case 1: element = <Gamedev />; break;
       case 2: element = <Sniper />; break;
       case 3: element = <Entlastungspaket />; break;
+      case 4: element = <Schmetterling />; break;
       default: element = NaN;
     }
 

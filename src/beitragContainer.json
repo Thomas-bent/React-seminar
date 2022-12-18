@@ -10,7 +10,7 @@
         "id": 1,
         "name": "Einblick in die Videospielentwicklung",
         "beschreibung": "In unserer heutigen Zeit gibt es nur wenig Menschen, welche keine Spiele spielen. Nun wird es Zeit, hinter den Vorhang zu schauen und sich zu fragen: Was steckt hinter der Produktion von Videospielen? Und wie kann jeder sein eigenes erschaffen?",
-        "autor": "Michi",
+        "autor": "Michael",
         "lesezeit": 4
     },
     {
@@ -25,6 +25,13 @@
         "name": "Entlastungsprogramm der Regierung",
         "beschreibung": "Das Jahr 2022 war für die deutsche Bevölkerung aufgrund des Kriegs in Europa sowie der Corona-Pandemie eine Herausforderung. Im Winter werden nun vor allem die Gaspreise für Probleme sorgen. Hierbei soll ein Entlastungspaket von der Bundesregierung Unterstützung geben.",
         "autor": "Marcel",
+        "lesezeit": 4
+    },
+    {
+        "id": 4,
+        "name": "Schmetterlingseffekt",
+        "beschreibung": "Die Frage nach Zufall, nach Ursache und Wirkung und wie der Verlauf ihres Abends die Welt verändern kann.",
+        "autor": "Michael",
         "lesezeit": 4
     }
 ]

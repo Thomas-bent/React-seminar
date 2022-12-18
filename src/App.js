@@ -19,7 +19,7 @@ function App() {
         <Route path="/lesen/:id" element={ <GesamtBeitrag /> } />
           <Route path="/impressum" element={ <Impressum /> } />
       </Routes>
-        <Link to={ "/impressum" }><p style={{ marginBottom: "2vh", textAlign: "center" }}>@Impressum</p></Link>
+        <Link to={ "/impressum" } style={{ clear: "both", position: "absolute", height: "30px", bottom: "0", textAlign: "center", marginLeft: "0.5vw" }}><p>@Impressum</p></Link>
     </div>
   );
 }
