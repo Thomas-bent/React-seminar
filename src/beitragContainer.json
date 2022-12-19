@@ -40,5 +40,12 @@
         "beschreibung": "Da der Straßenverkehr zurzeit noch von umweltschädlichen Autos mit Verbrennungsmotor dominiert ist, muss ein Wandel der Bevölkerung hin zu klimafreundlichen Elektroautos folgen. Die Stadt Dingolfing legt  durch Elektromobilität besonders viel Wert darauf.",
         "autor": "Marcel",
         "lesezeit": 4
+    },
+    {
+        "id": 6,
+        "name": "Künstliche Intelligenzen",
+        "beschreibung": "Künstliche Intelligenzen sind sehr spannend und beeindruckend. Hier erfährst du das Wichtigste über KI's und kannst sie sogar selbst testen.",
+        "autor": "Jakob",
+        "lesezeit": 4
     }
 ]

@@ -8,6 +8,7 @@ import { Sniper } from './artikel_md/sniper'
 import { Entlastungspaket } from './artikel_md/entlastungspaket'
 import { Schmetterling } from './artikel_md/schmetterling'
 import { Emobilitaet } from './artikel_md/emobilitaet'
+import {Intelligenz} from "./artikel_md/intelligenz";
 
 export const GesamtBeitrag = () => {
 
@@ -23,6 +24,7 @@ export const GesamtBeitrag = () => {
       case 3: element = <Entlastungspaket />; break;
       case 4: element = <Schmetterling />; break;
       case 5: element = <Emobilitaet />; break;
+        case 6: element = <Intelligenz />; break;
       default: element = NaN;
     }
 
