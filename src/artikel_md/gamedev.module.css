@@ -1,6 +1,4 @@
 .container {
-    width: 100vw;
-    padding: 2rem;
     text-align: justify;
     line-height: 1.6;
 }
@@ -9,4 +7,11 @@
 }
 .quote {
     font-style: italic;
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 100vw;
+        padding: 0 2rem;
+    }
 }

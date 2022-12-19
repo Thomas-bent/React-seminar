@@ -1,9 +1,14 @@
 .container {
-    width: 100vw;
-    padding: 0 2rem;
     text-align: justify;
     line-height: 1.6;
 }
 .liste {
     margin-left: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 100vw;
+        padding: 0 2rem;
+    }
 }

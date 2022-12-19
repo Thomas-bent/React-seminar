@@ -2,3 +2,10 @@
     text-align: justify;
     line-height: 1.6;
 }
+
+@media only screen and (max-width: 500px) {
+    .main_text{
+        width: 100vw;
+        padding: 0 2rem;
+    }
+}
