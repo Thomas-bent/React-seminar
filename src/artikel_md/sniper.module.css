@@ -1,4 +1,6 @@
 .container {
+    width: 100vw;
+    padding: 0 2rem;
     text-align: justify;
     line-height: 1.6;
 }

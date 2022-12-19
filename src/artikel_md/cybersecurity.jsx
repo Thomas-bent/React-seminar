@@ -30,13 +30,13 @@ export const Cybersecurity = () => {
 <h2>
     3. Weiter Maßnahmen
 </h2>
-<p>
+<div>
     Nachdem wir dir jetzt einige Betrüger Methoden erklärt und Tipps gegeben haben, dich im Internet sicherer zu verhalten, kannst du dir überlegen, noch ein externes Anti-Viren-Programm zu installieren. Zwar ist auf allen Windows Computern schon standardmäßig das Windowseigene Programm „Windows Defender“ installiert, das - kombiniert mit einem entsprechenden Werbeblocker im Browser - für den normalen PC-Gebrauch völlig ausreicht. Wer aber auf Nummer sicher gehen möchte, dem stehen weitere kostenlose Programme zur Verfügung:
     <ul className={Style.liste}>
         <li><a href='https://www.avast.com/de'>Avast Antivirus</a></li>
         <li><a href='https://www.kaspersky.de/free-antivirus'>Kaspersky</a></li>
     </ul>
-</p>
+</div>
 </div>
   )
 }

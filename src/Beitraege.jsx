@@ -5,7 +5,7 @@ import {EinzelBeitrag} from './EinzelBeitrag'
 
 export const Beitraege = () => {
 
-  const beitraege = beitraegeContainer.map((bt) =>  <EinzelBeitrag objekt={ bt }/>);
+    const beitraege = beitraegeContainer.map((bt) =>  <EinzelBeitrag key={ bt.id } objekt={ bt }/>);
 
   return (
     <div className={ Style.container }>
